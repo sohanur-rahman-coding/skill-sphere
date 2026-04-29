@@ -17,7 +17,7 @@ const Footer = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
+                <div className="w-10 h-10 rounded-lg flex items-center justify-center">
                   <Image src={logo} alt="logo" width={50} height={50}></Image>
                 </div>
                 <p className="text-2xl md:text-3xl font-black tracking-wider">
@@ -26,8 +26,8 @@ const Footer = () => {
                 </p>
               </div>
               <p className="text-gray-400 mb-4">
-                Empowering students to learn from students. Building the future
-                of peer-to-peer education.
+                Dive into our curated selection of industry-leading programs
+                designed to help you master new skills.
               </p>
               <div className="flex gap-4">
                 <a
