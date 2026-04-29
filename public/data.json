@@ -7,8 +7,15 @@
     "rating": 4.9,
     "level": "Beginner",
     "description": "Master HTML, CSS, JavaScript, React, and Node.js with the most comprehensive course on the market.",
-    "image": "https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "category": "Development"
+    "image": "https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
+    "category": "Development",
+    "price": 99.99,
+    "discountPrice": 19.99,
+    "curriculum": [
+      { "title": "Module 1: Web Fundamentals", "lessons": ["How the Web Works", "HTML5 Semantics", "CSS3 Flexbox & Grid"] },
+      { "title": "Module 2: JavaScript Mastery", "lessons": ["Variables & Data Types", "DOM Manipulation", "Async/Await & APIs"] },
+      { "title": "Module 3: React.js & Backend", "lessons": ["React Hooks", "Node.js Essentials", "Express API Development"] }
+    ]
   },
   {
     "id": 2,
@@ -18,8 +25,15 @@
     "rating": 4.8,
     "level": "Intermediate",
     "description": "Learn modern design principles, Figma advanced tools, and user psychology to create stunning interfaces.",
-    "image": "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "category": "Design"
+    "image": "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
+    "category": "Design",
+    "price": 84.99,
+    "discountPrice": 14.99,
+    "curriculum": [
+      { "title": "Module 1: UI Foundations", "lessons": ["Visual Hierarchy", "Color Theory & Typography", "Iconography"] },
+      { "title": "Module 2: UX Research", "lessons": ["User Personas", "Wireframing & Lo-Fi", "Usability Testing"] },
+      { "title": "Module 3: Figma Advanced", "lessons": ["Auto Layout Masterclass", "Prototyping", "Design Systems"] }
+    ]
   },
   {
     "id": 3,
@@ -29,8 +43,15 @@
     "rating": 4.7,
     "level": "Beginner",
     "description": "Master SEO, Social Media Marketing, and Google Ads to grow any business online effectively.",
-    "image": "https://images.pexels.com/photos/905163/pexels-photo-905163.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "category": "Marketing"
+    "image": "https://images.pexels.com/photos/905163/pexels-photo-905163.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
+    "category": "Marketing",
+    "price": 59.99,
+    "discountPrice": 9.99,
+    "curriculum": [
+      { "title": "Module 1: Search Engine Optimization", "lessons": ["Keyword Research", "On-Page SEO", "Backlink Strategies"] },
+      { "title": "Module 2: Social Media Marketing", "lessons": ["Facebook & IG Ads", "Content Strategy", "Influencer Marketing"] },
+      { "title": "Module 3: Analytics", "lessons": ["Google Analytics 4", "Conversion Tracking", "Reporting"] }
+    ]
   },
   {
     "id": 4,
@@ -40,8 +61,15 @@
     "rating": 4.9,
     "level": "Intermediate",
     "description": "Go from zero to hero in Python and learn how to analyze data and build machine learning models.",
-    "image": "https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "category": "Development"
+    "image": "https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
+    "category": "Development",
+    "price": 119.99,
+    "discountPrice": 24.99,
+    "curriculum": [
+      { "title": "Module 1: Python Basics", "lessons": ["Data Structures", "Loops & Logic", "NumPy & Pandas"] },
+      { "title": "Module 2: Data Visualization", "lessons": ["Matplotlib & Seaborn", "Statistical Analysis", "Data Cleaning"] },
+      { "title": "Module 3: Machine Learning", "lessons": ["Linear Regression", "Neural Networks", "AI Model Deployment"] }
+    ]
   },
   {
     "id": 5,
@@ -51,8 +79,15 @@
     "rating": 4.6,
     "level": "All Levels",
     "description": "Understand lighting, composition, and post-processing techniques to take world-class photos.",
-    "image": "https://images.pexels.com/photos/1205033/pexels-photo-1205033.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "category": "Creative"
+    "image": "https://images.pexels.com/photos/1205033/pexels-photo-1205033.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
+    "category": "Creative",
+    "price": 49.99,
+    "discountPrice": 12.99,
+    "curriculum": [
+      { "title": "Module 1: Camera Mastery", "lessons": ["ISO, Aperture & Shutter", "Lenses Explained", "Manual Mode"] },
+      { "title": "Module 2: Artistic Composition", "lessons": ["Rule of Thirds", "Leading Lines", "Lighting Setup"] },
+      { "title": "Module 3: Editing Workflow", "lessons": ["Lightroom Basics", "Color Grading", "Retouching in Photoshop"] }
+    ]
   },
   {
     "id": 6,
@@ -62,7 +97,14 @@
     "rating": 4.8,
     "level": "Advanced",
     "description": "Master cash flow, investment strategies, and business scaling for long-term success.",
-    "image": "https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "category": "Business"
+    "image": "https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
+    "category": "Business",
+    "price": 149.99,
+    "discountPrice": 29.99,
+    "curriculum": [
+      { "title": "Module 1: Financial Basics", "lessons": ["Cash Flow Statements", "Profit & Loss", "Assets vs Liabilities"] },
+      { "title": "Module 2: Investment Strategy", "lessons": ["Stock Market Basics", "Real Estate Investing", "Risk Management"] },
+      { "title": "Module 3: Business Scaling", "lessons": ["Fundraising Basics", "Exit Strategies", "Wealth Protection"] }
+    ]
   }
 ]
