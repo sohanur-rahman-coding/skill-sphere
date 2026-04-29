@@ -15,7 +15,7 @@ const Courses = async () => {
           learn from the best instructors at your own pace.
         </p>
       </div>
-      <div className="grid grid-cols-3 gap-6  justify-center ">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6  justify-center ">
         {data.map((item) => (
           <Cart key={item.id} item={item}></Cart>
         ))}

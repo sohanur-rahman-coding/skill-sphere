@@ -31,7 +31,7 @@ const RegisterPage = () => {
       image: UserData.image,
       callbackURL: "/auth/login",
     });
-    console.log({ data, error });
+    
 
     if (error) {
       alert("Signup failed: " + error.message);
