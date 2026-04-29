@@ -4,6 +4,7 @@ import logo from "../../public/assests/skillsphere.png";
 import MyLink from "./MyLink";
 import { Description, FieldError, Label, SearchField } from "@heroui/react";
 import React from "react";
+import Link from "next/link";
 
 const Navbar = () => {
   const [value, setValue] = React.useState("");
@@ -108,7 +109,7 @@ const Navbar = () => {
           </SearchField>
         </div>
         <div className="navbar-end">
-         <button>login</button>
+         <Link href={'/auth/login'}><button>login</button></Link>
         </div>
       </div>
     </div>

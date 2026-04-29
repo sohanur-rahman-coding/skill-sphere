@@ -14,6 +14,7 @@ import Link from "next/link";
 import { authClient } from "@/lib/auth-client";
 
 import { useRouter } from "next/navigation";
+import { FcGoogle } from "react-icons/fc";
 
 const RegisterPage = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -28,9 +29,9 @@ const RegisterPage = () => {
       email: UserData.email,
       password: UserData.password,
       image: UserData.image,
-      callbackURL: "/",
+      callbackURL: "/auth/login",
     });
-    console.log(data, "data");
+    console.log({ data, error });
 
     if (error) {
       alert("Signup failed: " + error.message);
@@ -40,13 +41,17 @@ const RegisterPage = () => {
     }
   };
 
+  const signIn = async () => {
+    const data = await authClient.signIn.social({
+      provider: "google",
+    });
+  };
+
   return (
     <div className="min-h-screen flex items-center justify-center bg-linear-to-br from-slate-100 to-slate-200 px-4">
       <div className="w-full max-w-md bg-white rounded-2xl shadow-lg p-8">
         {/* Title */}
-        <h2 className="text-3xl font-bold text-center mb-2">
-          Create Account 🚀
-        </h2>
+        <h2 className="text-3xl font-bold text-center mb-2">Create Account</h2>
         <p className="text-sm text-gray-500 text-center mb-6">
           Sign up to get started
         </p>
@@ -124,15 +129,26 @@ const RegisterPage = () => {
           </TextField>
 
           {/* Submit */}
-          <Button type="submit" className="w-full">
+          <Button type="submit" className="w-full bg-primary">
             <Check className="mr-1" />
             Register
           </Button>
+          <div className="flex items-center my-1">
+            <div className="flex-grow border-t border-gray-300"></div>
+            <span className="flex-shrink mx-4 text-gray-500 font-medium text-sm">
+              OR
+            </span>
+            <div className="flex-grow border-t border-gray-300"></div>
+          </div>
+          <button className="btn btn-outline rounded-4xl" onClick={signIn}>
+            <FcGoogle />
+            login with Google{" "}
+          </button>
 
           {/* Login redirect */}
           <p className="text-center text-sm text-gray-500">
             Already have an account?{" "}
-            <Link href="/login" className="text-blue-600 hover:underline">
+            <Link href="/auth/login" className="text-blue-600 hover:underline">
               Login
             </Link>
           </p>
