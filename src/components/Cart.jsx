@@ -35,7 +35,7 @@ const Popular = ({ item }) => {
             {item.rating}
           </span>
 
-          <Link href={`/item/${item.id}`}>
+          <Link href={`/courses/${item.id}`}>
             <button className="btn btn-sm btn-primary">View Details</button>
           </Link>
         </div>
