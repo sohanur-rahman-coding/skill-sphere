@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "title": "Complete Web Development Bootcamp",
+    "instructor": "Dr. Angela Yu",
+    "duration": "45.5 hours",
+    "rating": 4.9,
+    "level": "Beginner",
+    "description": "Master HTML, CSS, JavaScript, React, and Node.js with the most comprehensive course on the market.",
+    "image": "https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "category": "Development"
+  },
+  {
+    "id": 2,
+    "title": "Advanced UI/UX Design Masterclass",
+    "instructor": "Sarah Johnson",
+    "duration": "28 hours",
+    "rating": 4.8,
+    "level": "Intermediate",
+    "description": "Learn modern design principles, Figma advanced tools, and user psychology to create stunning interfaces.",
+    "image": "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "category": "Design"
+  },
+  {
+    "id": 3,
+    "title": "Digital Marketing Strategy 2026",
+    "instructor": "Mark Thompson",
+    "duration": "15 hours",
+    "rating": 4.7,
+    "level": "Beginner",
+    "description": "Master SEO, Social Media Marketing, and Google Ads to grow any business online effectively.",
+    "image": "https://images.pexels.com/photos/905163/pexels-photo-905163.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "category": "Marketing"
+  },
+  {
+    "id": 4,
+    "title": "Python for Data Science & AI",
+    "instructor": "David Miller",
+    "duration": "35 hours",
+    "rating": 4.9,
+    "level": "Intermediate",
+    "description": "Go from zero to hero in Python and learn how to analyze data and build machine learning models.",
+    "image": "https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "category": "Development"
+  },
+  {
+    "id": 5,
+    "title": "Professional Photography Essentials",
+    "instructor": "Elena Rodriguez",
+    "duration": "12 hours",
+    "rating": 4.6,
+    "level": "All Levels",
+    "description": "Understand lighting, composition, and post-processing techniques to take world-class photos.",
+    "image": "https://images.pexels.com/photos/1205033/pexels-photo-1205033.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "category": "Creative"
+  },
+  {
+    "id": 6,
+    "title": "Financial Intelligence for Entrepreneurs",
+    "instructor": "Robert Kiyosaki",
+    "duration": "22 hours",
+    "rating": 4.8,
+    "level": "Advanced",
+    "description": "Master cash flow, investment strategies, and business scaling for long-term success.",
+    "image": "https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "category": "Business"
+  }
+]
