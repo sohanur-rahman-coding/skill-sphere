@@ -11,10 +11,16 @@
     "category": "Development",
     "price": 99.99,
     "discountPrice": 19.99,
+    "releaseDate": "2025-01-15",
     "curriculum": [
-      { "title": "Module 1: Web Fundamentals", "lessons": ["How the Web Works", "HTML5 Semantics", "CSS3 Flexbox & Grid"] },
-      { "title": "Module 2: JavaScript Mastery", "lessons": ["Variables & Data Types", "DOM Manipulation", "Async/Await & APIs"] },
-      { "title": "Module 3: React.js & Backend", "lessons": ["React Hooks", "Node.js Essentials", "Express API Development"] }
+      {
+        "title": "Module 1: Web Fundamentals",
+        "lessons": ["How the Web Works", "HTML5 Semantics", "CSS3 Flexbox & Grid"]
+      },
+      {
+        "title": "Module 2: JavaScript Mastery",
+        "lessons": ["Variables & Data Types", "DOM Manipulation", "Async/Await & APIs"]
+      }
     ]
   },
   {
@@ -29,10 +35,12 @@
     "category": "Design",
     "price": 84.99,
     "discountPrice": 14.99,
+    "releaseDate": "2025-06-20",
     "curriculum": [
-      { "title": "Module 1: UI Foundations", "lessons": ["Visual Hierarchy", "Color Theory & Typography", "Iconography"] },
-      { "title": "Module 2: UX Research", "lessons": ["User Personas", "Wireframing & Lo-Fi", "Usability Testing"] },
-      { "title": "Module 3: Figma Advanced", "lessons": ["Auto Layout Masterclass", "Prototyping", "Design Systems"] }
+      {
+        "title": "Module 1: UI Foundations",
+        "lessons": ["Visual Hierarchy", "Color Theory & Typography"]
+      }
     ]
   },
   {
@@ -47,10 +55,12 @@
     "category": "Marketing",
     "price": 59.99,
     "discountPrice": 9.99,
+    "releaseDate": "2026-02-10",
     "curriculum": [
-      { "title": "Module 1: Search Engine Optimization", "lessons": ["Keyword Research", "On-Page SEO", "Backlink Strategies"] },
-      { "title": "Module 2: Social Media Marketing", "lessons": ["Facebook & IG Ads", "Content Strategy", "Influencer Marketing"] },
-      { "title": "Module 3: Analytics", "lessons": ["Google Analytics 4", "Conversion Tracking", "Reporting"] }
+      {
+        "title": "Module 1: SEO",
+        "lessons": ["Keyword Research", "On-Page SEO"]
+      }
     ]
   },
   {
@@ -65,10 +75,12 @@
     "category": "Development",
     "price": 119.99,
     "discountPrice": 24.99,
+    "releaseDate": "2025-11-05",
     "curriculum": [
-      { "title": "Module 1: Python Basics", "lessons": ["Data Structures", "Loops & Logic", "NumPy & Pandas"] },
-      { "title": "Module 2: Data Visualization", "lessons": ["Matplotlib & Seaborn", "Statistical Analysis", "Data Cleaning"] },
-      { "title": "Module 3: Machine Learning", "lessons": ["Linear Regression", "Neural Networks", "AI Model Deployment"] }
+      {
+        "title": "Module 1: Python Basics",
+        "lessons": ["Data Structures", "NumPy & Pandas"]
+      }
     ]
   },
   {
@@ -83,10 +95,12 @@
     "category": "Creative",
     "price": 49.99,
     "discountPrice": 12.99,
+    "releaseDate": "2024-12-30",
     "curriculum": [
-      { "title": "Module 1: Camera Mastery", "lessons": ["ISO, Aperture & Shutter", "Lenses Explained", "Manual Mode"] },
-      { "title": "Module 2: Artistic Composition", "lessons": ["Rule of Thirds", "Leading Lines", "Lighting Setup"] },
-      { "title": "Module 3: Editing Workflow", "lessons": ["Lightroom Basics", "Color Grading", "Retouching in Photoshop"] }
+      {
+        "title": "Module 1: Camera Mastery",
+        "lessons": ["ISO, Aperture & Shutter"]
+      }
     ]
   },
   {
@@ -101,10 +115,12 @@
     "category": "Business",
     "price": 149.99,
     "discountPrice": 29.99,
+    "releaseDate": "2026-04-01",
     "curriculum": [
-      { "title": "Module 1: Financial Basics", "lessons": ["Cash Flow Statements", "Profit & Loss", "Assets vs Liabilities"] },
-      { "title": "Module 2: Investment Strategy", "lessons": ["Stock Market Basics", "Real Estate Investing", "Risk Management"] },
-      { "title": "Module 3: Business Scaling", "lessons": ["Fundraising Basics", "Exit Strategies", "Wealth Protection"] }
+      {
+        "title": "Module 1: Financial Basics",
+        "lessons": ["Cash Flow Statements", "Assets vs Liabilities"]
+      }
     ]
   }
 ]

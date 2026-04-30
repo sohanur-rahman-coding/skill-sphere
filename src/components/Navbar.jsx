@@ -8,7 +8,7 @@ import React from "react";
 import Link from "next/link";
 
 const Navbar = () => {
-  const [value, setValue] = React.useState("");
+  
 
   const userData = authClient.useSession();
   const user = userData.data?.user;
@@ -55,25 +55,7 @@ const Navbar = () => {
                 </li>
               ))}
               {/* SearchField for Mobile/Tablet Dropdown */}
-              <div className="pt-2">
-                <SearchField
-                  aria-label="Search site"
-                  value={value}
-                  onChange={setValue}
-                  className="max-w-xs" // Desktop-e size control korar jonno
-                >
-                  <SearchField.Group className="bg-gray-100 border-none shadow-sm hover:bg-gray-200 transition-all rounded-full px-3">
-                    <SearchField.SearchIcon className="text-blue-600 font-bold" />
-                    <SearchField.Input
-                      placeholder="Search courses..."
-                      className="placeholder:text-gray-400 text-sm font-medium focus:ring-0"
-                    />
-                    {value && (
-                      <SearchField.ClearButton className="text-gray-500 hover:text-red-500" />
-                    )}
-                  </SearchField.Group>
-                </SearchField>
-              </div>
+             
             </ul>
           </div>
           <div className="flex items-center gap-2">
@@ -99,25 +81,7 @@ const Navbar = () => {
         {/* Navbar End: Search (Desktop) and Auth Actions */}
         <div className="navbar-end gap-4">
           {/* SearchField for Large Screens Only */}
-          <div className="hidden lg:block">
-            <SearchField
-              aria-label="Search site"
-              value={value}
-              onChange={setValue}
-              className="max-w-xs" // Desktop-e size control korar jonno
-            >
-              <SearchField.Group className="bg-gray-100 border-none shadow-sm hover:bg-gray-200 transition-all rounded-full px-3">
-                <SearchField.SearchIcon className="text-blue-600 font-bold" />
-                <SearchField.Input
-                  placeholder="Search courses..."
-                  className="placeholder:text-gray-400 text-sm font-medium focus:ring-0"
-                />
-                {value && (
-                  <SearchField.ClearButton className="text-gray-500 hover:text-red-500" />
-                )}
-              </SearchField.Group>
-            </SearchField>
-          </div>
+          
 
           <div className="flex gap-4 items-center">
             {!user && (

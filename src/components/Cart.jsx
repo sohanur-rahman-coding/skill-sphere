@@ -4,6 +4,7 @@ import { IoIosStar } from "react-icons/io";
 import { FaEye } from "react-icons/fa";
 
 const Popular = ({ item }) => {
+  console.log(item);
   return (
     <div className="card bg-base-100 shadow ">
       <div className="card-body p-2">
@@ -26,6 +27,12 @@ const Popular = ({ item }) => {
         <p className="text-left  text-gray-600">
           Instructor:{" "}
           <span className="font-semibold text-black">{item.instructor}</span>
+        </p>
+        {/* release date */}
+
+        <p className="text-left  text-gray-600">
+          Release date:
+          <span className="font-semibold text-black">{item.releaseDate}</span>
         </p>
 
         {/* Rating + Views */}
