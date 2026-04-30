@@ -31,8 +31,8 @@ const Popular = ({ item }) => {
         {/* release date */}
 
         <p className="text-left  text-gray-600">
-          Release date:
-          <span className="font-semibold text-black">{item.releaseDate}</span>
+          Release date: {" "}
+           <span className="font-semibold text-black">{item.releaseDate}</span>
         </p>
 
         {/* Rating + Views */}

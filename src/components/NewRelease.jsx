@@ -1,8 +1,8 @@
 import { PopularData } from "@/lib/data";
 import Cart from "./Cart";
 
-const NewRelease = async() => {
-      const data = await PopularData();
+const NewRelease = async () => {
+  const data = await PopularData();
   return (
     <div className="bg-gray-50 py-10">
       <div className=" container text-center mx-auto ">
@@ -14,7 +14,7 @@ const NewRelease = async() => {
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8 mx-auto justify-center ">
           {data
-            .sort((a, b) => b.releaseDate - a.releaseDate)
+            .sort((a, b) => a.releaseDate - b.releaseDate)
             .slice(0, 3)
             .map((item) => (
               <Cart key={item.id} item={item}></Cart>
