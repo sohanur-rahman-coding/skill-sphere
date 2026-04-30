@@ -6,9 +6,3 @@ export const PopularData = async () => {
   return data;
 };
 
-//  export const Popular = async (search='') => {
-//   const res = await fetch(`https://skill-sphere-six-ruddy.vercel.app/data.json?search=${search}`);
-//   const data = await res.json();
-  
-//   return data;
-// };

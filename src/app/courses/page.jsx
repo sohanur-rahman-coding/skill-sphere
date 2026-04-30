@@ -1,6 +1,6 @@
 import { PopularData } from "@/lib/data";
 import Cart from "../../components/Cart";
-import { Search } from "lucide-react";
+
 
 const Courses = async () => {
   const data = await PopularData();
