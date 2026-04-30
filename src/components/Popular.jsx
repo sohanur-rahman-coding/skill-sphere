@@ -8,7 +8,7 @@ const Popular = async () => {
     <div className="bg-gray-50 py-10">
       <div className=" container text-center mx-auto ">
         <h2 className="text-4xl font-bold mt-4">Popular Courses</h2>
-        <p className="">
+        <p className="mt-3">
           Explore highly-rated courses chosen based on learner feedback and
           performance. <br /> Each course card highlights key details including
           instructor, rating, and a quick option to view full course details.
