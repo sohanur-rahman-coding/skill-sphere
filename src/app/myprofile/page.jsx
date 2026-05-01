@@ -19,7 +19,7 @@ const Profile = () => {
     }
 
     return (
-        <div className="container mx-auto px-4 py-12 flex justify-center">
+        <div className="container mx-auto px-4 py-12 flex justify-center animate__animated animate__fadeInDown">
             <Card className="max-w-2xl w-full p-8 shadow-2xl border border-gray-100 rounded-[2.5rem] bg-white">
                 <div className='flex flex-col items-center'>
                     

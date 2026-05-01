@@ -21,7 +21,7 @@ export function UpdateProfile() {
 
   return (
     <Modal>
-      <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 rounded-xl shadow-lg transition-all active:scale-95">
+      <Button className="w-full  bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 rounded-xl shadow-lg transition-all active:scale-95">
         Edit Profile
       </Button>
       <Modal.Backdrop>

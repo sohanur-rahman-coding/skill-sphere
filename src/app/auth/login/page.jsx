@@ -40,7 +40,7 @@ const Login = () => {
     });
   };
   return (
-    <div className="min-h-screen flex items-center justify-center bg-linear-to-br from-slate-100 to-slate-200 px-4">
+    <div className="animate__animated animate__fadeInDown min-h-screen flex items-center justify-center bg-linear-to-br from-slate-100 to-slate-200 px-4">
       <div className="w-full max-w-md bg-white rounded-2xl shadow-lg p-8">
         {/* Title */}
         <h2 className="text-3xl font-bold text-center mb-2">Welcome Back </h2>

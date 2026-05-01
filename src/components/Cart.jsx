@@ -6,7 +6,7 @@ import { FaEye } from "react-icons/fa";
 const Popular = ({ item }) => {
   console.log(item);
   return (
-    <div className="card bg-base-100 shadow ">
+    <div className="card bg-base-100 shadow animate__animated animate__fadeInUp">
       <div className="card-body p-2">
         {/* Course Image */}
 
