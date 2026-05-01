@@ -13,11 +13,14 @@ import {
 import Link from "next/link";
 import { useState } from "react";
 import { FcGoogle } from "react-icons/fc";
+import { toast } from "react-toastify";
 
 const Login = () => {
   const [isVisible, setIsVisible] = useState(false);
+  
 
   const onSubmit = async (e) => {
+   
     e.preventDefault();
     const formData = new FormData(e.currentTarget);
     const UserData = Object.fromEntries(formData.entries());
@@ -26,18 +29,20 @@ const Login = () => {
       email: UserData.email,
       password: UserData.password,
       callbackURL: "/",
+      
     });
 
     if (error) {
-      alert("Login failed: " + error.message);
+      toast.error("Login failed: " + error.message) 
     } else {
-      alert("Login successful!");
+      toast.success('Successfully signed in !') ;
     }
   };
   const signIn = async () => {
     const data = await authClient.signIn.social({
       provider: "google",
     });
+    
   };
   return (
     <div className="animate__animated animate__fadeInDown min-h-screen flex items-center justify-center bg-linear-to-br from-slate-100 to-slate-200 px-4">

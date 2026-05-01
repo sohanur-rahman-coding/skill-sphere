@@ -6,15 +6,16 @@ import MyLink from "./MyLink";
 import { Avatar, Button, SearchField } from "@heroui/react";
 import React from "react";
 import Link from "next/link";
+import { toast } from "react-toastify";
+
 
 const Navbar = () => {
-  
-
   const userData = authClient.useSession();
   const user = userData.data?.user;
 
   const handleSignOut = async () => {
     await authClient.signOut();
+    toast.success("Successfully signed out!!");
   };
 
   const navItems = [
@@ -55,7 +56,6 @@ const Navbar = () => {
                 </li>
               ))}
               {/* SearchField for Mobile/Tablet Dropdown */}
-             
             </ul>
           </div>
           <div className="flex items-center gap-2">
@@ -78,9 +78,8 @@ const Navbar = () => {
           </ul>
         </div>
 
-        {/* Navbar End: Search (Desktop) and Auth Actions */}
+        
         <div className="navbar-end gap-4">
-          {/* SearchField for Large Screens Only */}
           
 
           <div className="flex gap-4 items-center">

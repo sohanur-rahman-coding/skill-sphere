@@ -15,6 +15,7 @@ import { authClient } from "@/lib/auth-client";
 
 import { useRouter } from "next/navigation";
 import { FcGoogle } from "react-icons/fc";
+import { Router } from "next/router";
 
 const RegisterPage = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -31,13 +32,12 @@ const RegisterPage = () => {
       image: UserData.image,
       callbackURL: "/auth/login",
     });
-    
 
     if (error) {
-      alert("Signup failed: " + error.message);
+      toast.error("Login failed: " + error.message);
     } else {
-      alert("Signup successful 🎉");
-      router.push("/");
+      toast.success("Successfully signed in !");
+      Router.push("/");
     }
   };
 

@@ -6,7 +6,7 @@ import { Search, Users, BookOpen } from "lucide-react";
 const Hero = () => {
   return (
     <div>
-      <section className="relative py-20 bg-gray-50 px-4 sm:px-6 lg:px-8 overflow-hidden animate__animated animate__fadeInUp">
+      <section className="relative py-20  px-4 sm:px-6 lg:px-8 overflow-hidden animate__animated animate__fadeInUp">
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
