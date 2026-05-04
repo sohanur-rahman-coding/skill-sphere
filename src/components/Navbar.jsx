@@ -8,7 +8,6 @@ import React from "react";
 import Link from "next/link";
 import { toast } from "react-toastify";
 
-
 const Navbar = () => {
   const userData = authClient.useSession();
   const user = userData.data?.user;
@@ -58,13 +57,13 @@ const Navbar = () => {
               {/* SearchField for Mobile/Tablet Dropdown */}
             </ul>
           </div>
-          <div className="flex items-center gap-2">
+          <Link href={'/'}><div className="flex items-center gap-2">
             <Image src={logo} alt="logo" width={40} height={40} />
             <p className="text-xl md:text-2xl font-black tracking-wider hidden sm:block">
               <span className="text-blue-900">Skill</span>
               <span className="text-cyan-500">Sphere</span>
             </p>
-          </div>
+          </div></Link>
         </div>
 
         {/* Navbar Center: Desktop Menu Only */}
@@ -78,10 +77,7 @@ const Navbar = () => {
           </ul>
         </div>
 
-        
         <div className="navbar-end gap-4">
-          
-
           <div className="flex gap-4 items-center">
             {!user && (
               <ul className="flex items-center text-sm gap-3 md:gap-5 font-medium">
@@ -103,14 +99,17 @@ const Navbar = () => {
 
             {user && (
               <div className="flex items-center gap-3">
-                <Avatar size="sm">
-                  <Avatar.Image
-                    alt={user?.name}
-                    src={user?.image}
-                    referrerPolicy="no-referrer"
-                  />
-                  <Avatar.Fallback>{user?.name?.charAt(0)}</Avatar.Fallback>
-                </Avatar>
+                <Link href={"/myprofile"}>
+                  {" "}
+                  <Avatar size="sm">
+                    <Avatar.Image
+                      alt={user?.name}
+                      src={user?.image}
+                      referrerPolicy="no-referrer"
+                    />
+                    <Avatar.Fallback>{user?.name?.charAt(0)}</Avatar.Fallback>
+                  </Avatar>
+                </Link>
                 <Button onClick={handleSignOut} size="sm" variant="danger">
                   Sign Out
                 </Button>

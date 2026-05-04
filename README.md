@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🎓 SkillSphere – Premium E-Learning Platform
 
-## Getting Started
+SkillSphere is a modern, high-performance **E-learning platform** built to deliver a smooth and engaging learning experience. It combines a premium UI, high-end animations, and intelligent course discovery features using modern web technologies.
 
-First, run the development server:
+---
 
+## 🔗 Live Demo
+https://skill-sphere-six-ruddy.vercel.app/
+
+---
+
+## 🚀 Features
+
+- 🎨 **Premium UI Design** – Clean and professional interface built with Tailwind CSS  
+- 🌊 **Smooth Scrolling** – Powered by Lenis for a fluid experience  
+- ⚡ **Advanced Animations** – GSAP & Animate.css for modern UI interactions  
+- 🔍 **Real-Time Search** – Instant course filtering system  
+- 📚 **Course Details Page** – Includes curriculum & instructor info  
+- 📱 **Fully Responsive** – Works on Mobile, Tablet, and Desktop  
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- Next.js 15 (App Router)
+- React.js
+- Tailwind CSS
+- GSAP + ScrollTrigger
+- Lenis
+- Lucide React & React Icons
+
+### Backend (Planned / Partial)
+- Node.js
+- Express.js
+- MongoDB
+- React Toastify
+
+---
+
+## 📦 Installation
+
+### 1. Clone the repository
 ```bash
+git clone https://github.com/sohanur-rahman-coding/skill-sphere.git
+## 📦 Installation
+
+### 2. Go to the project directory
+cd skill-sphere
+
+### 3. Install dependencies
+npm install
+
+### 4. Run the project
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 5. Open in browser
+http://localhost:3000
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📸 Preview
 
-## Learn More
+- 🚀 Hero Section with animations  
+- 🔎 Course search & filtering  
+- 🌊 Smooth scrolling experience  
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 👨‍💻 Author
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Sohanur Rahman**  
+CST Student, Dhaka Polytechnic Institute  
 
-## Deploy on Vercel
+🔗 GitHub: https://github.com/sohanur-rahman-coding  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## ⭐ Support
+
+If you like this project:
+
+- ⭐ Star this repo  
+- 🍴 Fork it  
+- 📢 Share it  

@@ -40,7 +40,7 @@ const AllCourses = ({ data }) => {
             value={value}
             type="text"
             className="block w-full pl-12 pr-24 py-4 border-2 border-slate-100 rounded-2xl leading-5 bg-white placeholder-gray-400 focus:outline-none focus:ring-4 focus:ring-blue-50/50 focus:border-blue-500 text-lg transition-all shadow-xl shadow-slate-100/50"
-            placeholder="Search for courses (e.g. React, UI/UX)..."
+            placeholder="Search for courses"
           />
           <div className="absolute inset-y-2 right-2 flex items-center">
              <span className="hidden md:block text-xs font-bold text-slate-400 px-3 border-r mr-2">

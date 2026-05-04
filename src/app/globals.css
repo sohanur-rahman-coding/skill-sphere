@@ -51,3 +51,6 @@ html.lenis {
 .lenis.lenis-smooth [data-lenis-prevent] {
   overscroll-behavior: contain;
 }
+html {
+  scroll-behavior: smooth;
+}

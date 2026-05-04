@@ -1,5 +1,6 @@
 import { PopularData } from "@/lib/data";
 import Cart from "./Cart";
+import Link from "next/link";
 
 const Popular = async () => {
   const data = await PopularData();
@@ -17,6 +18,9 @@ const Popular = async () => {
           {data.sort((a, b) => b.rating - a.rating).slice(0, 3).map((item) => (
             <Cart key={item.id} item={item}></Cart>
           ))}
+        </div>
+        <div>
+          <Link href={'/courses'}><button className="btn btn-primary my-6">View All</button></Link>
         </div>
       </div>
     </div>

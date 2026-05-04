@@ -2,6 +2,7 @@
 import Image from "next/image";
 import React from "react";
 import { Search, Users, BookOpen } from "lucide-react";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -29,12 +30,12 @@ const Hero = () => {
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4">
-                <button className="px-8 py-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors shadow-lg shadow-blue-200">
-                  Book Free Demo
-                </button>
-                <button className="px-8 py-4 bg-white text-gray-700 rounded-lg border-2 border-gray-200 hover:border-blue-600 transition-colors">
+                <Link href={'/courses'}><button className="px-8 py-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors shadow-lg shadow-blue-200">
+                  Get Started
+                </button></Link>
+                <Link href='#mentors'><button className="px-8 py-4 bg-white text-gray-700 rounded-lg border-2 border-gray-200 hover:border-blue-600 transition-colors">
                   Find a Mentor
-                </button>
+                </button></Link>
               </div>
 
               <div className="grid grid-cols-3 gap-8 pt-8 border-t border-gray-200">
